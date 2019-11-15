@@ -1,0 +1,36 @@
+body {
+  background-color: #F8F8F8;
+}
+
+.app {
+  max-width: 400px;
+  margin: 3rem auto;
+  color: #888888;
+}
+
+.component {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+}
+
+.component:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+button {
+  appearance: none;
+  margin-left: 1rem;
+  cursor: pointer;
+  background-color: #E8E8E8;
+  border: none;
+  border-radius: 3px;
+  color: #888888;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+}
+
+button:hover {
+  background-color: #E0E0E0;
+}
